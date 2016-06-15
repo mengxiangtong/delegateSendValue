@@ -55,7 +55,7 @@
     //让代理执行协议中的方法,将要传递的值传回去
     if (_delegate != nil && [_delegate respondsToSelector:@selector(sendValue:)])
     {
-      //4， 《调用》
+      //3， 《调用》
       [_delegate  sendValue:@"ffff"];
       NSLog(@"传出类：  //4， 《调用》  ");
         

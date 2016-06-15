@@ -42,10 +42,10 @@
     
 }
 
-//2.1  实现代理  协议方法
+//4  实现代理  协议方法
 - (void)sendValue:(NSString *)value
 {
-     NSLog(@"传入类： //3  实现 协议方法  ");
+     NSLog(@"传入类： 4  实现 协议方法  ");
     
     NSLog(@"后一个页面传过来的值 %@",value);
     
@@ -60,7 +60,7 @@
     //，给所传属性
     secongVC.value = @"姓名";
     
-    //2.1  设置代理
+    //2  设置代理
     secongVC.delegate = self;
     NSLog(@"传入类： //2  设置代理  ");
 
